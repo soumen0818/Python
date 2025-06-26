@@ -50,3 +50,19 @@ z = 6
 
 #...........................................................................
 
+import math
+
+x = 9.2
+
+# print(math.pi)    => output = 3.141592653589793
+# print(math.e)     => output = 2.718281828459045
+
+# result = math.sqrt(x)   => output = 3.0 , when x=9
+
+# result = math.ceil(x)     => Return the ceiling of x as an Integral. This is the smallest integer >= x.
+# result = math.floor(x)       => Return the floor of x as an Integral. This is the largest integer <= x.
+
+
+
+
+# print(result)
