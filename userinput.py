@@ -1,15 +1,15 @@
 # input() = A function that prompts the user to enter data 
 #           Returns the entered data as a string
 
-# name = input ("What is you name ? : ")
-# age = int (input ("how old are you ? : "))
+name = input ("What is you name ? : ")
+age = int (input ("how old are you ? : ")) # This mathod is more easy and write less line code.
 
-# age = int (age)
-# age = age + 2
+# age = int (age)  => This is also a method to convert datatype , using this method require extra line of code .
+age = age + 2
 
-# print(f"your name is {name}")
-# print("Happy BirthDay !")
-# print(f"You are {age} year old")
+print(f"your name is {name}")
+print("Happy BirthDay !")
+print(f"You are {age} year old")
 
 #......................................................
 
@@ -18,12 +18,12 @@
 #               Area = length * width
 
 
-# length = float (input("Enter the length : "))
-# width = float (input("Enter the width : "))
+length = float (input("Enter the length : "))
+width = float (input("Enter the width : "))
 
-# Area = length *width
+Area = length *width
 
-# print(f"Area of the rectangle is: {Area}cm²")
+print(f"Area of the rectangle is: {Area}cm²")
 
 
 #........................................................
