@@ -50,9 +50,9 @@ z = 6
 
 #...........................................................................
 
-import math
+# import math
 
-x = 9.2
+# x = 9.2
 
 # print(math.pi)    => output = 3.141592653589793
 # print(math.e)     => output = 2.718281828459045
@@ -66,3 +66,20 @@ x = 9.2
 
 
 # print(result)
+
+
+
+
+# Exercise.................................................
+
+# 1. Circumference of circle .  // c = 2*pi*r
+
+import math
+
+radius = float (input("Enter the redius of a circle : "))
+
+Circumference = 2 * math.pi * radius
+
+print(f"Circumference of the circle is : { round(Circumference, 2)} cm")
+
+
