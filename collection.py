@@ -32,3 +32,46 @@ fruits = ["apple", "orange", "banana", "coconut"]
 #     print(fruit)
 
 
+# 2.Set...................................................................
+
+fruits = {"apple", "orange", "banana", "coconut", "coconut"}
+
+# print(dir(fruits))
+# print(help(fruits))
+# print (len(fruits))  => find the lenth 
+# print ("Guava" in fruits)  => find the elements , if there is present or not
+
+# fruits.add("Guava")     ==> Add an element to a set.
+# fruits.remove("banana")  ==> Remove an element from a set; it must be a member.
+# fruits.pop()               ==> in Python, the pop() method for sets is used to remove and return an arbitrary element from the set.
+# fruits.clear()
+
+# print(fruits)
+
+
+# print(fruits)     ==> output = {'banana', 'orange', 'coconut', 'apple'} 
+
+# for fruit in fruits:
+#     print(fruit
+
+
+
+
+# 2.Tuple...................................................................
+
+fruits = ("apple", "orange", "banana", "coconut", "coconut")
+
+# print(dir(fruits))
+# print(help(fruits))
+# print (len(fruits))  => find the lenth 
+# print ("Guava" in fruits)  => find the elements , if there is present or not
+
+# print(fruits.index("apple"))  ==> Return first index of value.
+# print(fruits.count("coconut"))  ==> Return number of occurrences of value.
+
+# print(fruits)
+
+# print(fruits)      ==> output = ('apple', 'orange', 'banana', 'coconut', 'coconut')
+ 
+for fruit in fruits:
+    print(fruit)
