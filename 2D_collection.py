@@ -11,3 +11,18 @@ for collection in groceries :
         print(iteam, end = ",")
     print()
        
+       
+       
+
+# Exercise ===> Num_pad..............................................................
+
+num_pad = ((7,8,9),
+           (4,5,6),
+           (1,2,3),
+           ("+", 0, "*"))
+
+
+for row in num_pad:
+    for num in row :
+        print(num, end = " ")
+    print()
