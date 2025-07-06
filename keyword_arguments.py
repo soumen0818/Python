@@ -7,3 +7,12 @@ def hello(greeting, title, first, last):
     print(f"{greeting} {title}{first} {last} ")
     
 hello("Hello", title = "Mr.",last= "Das", first = "Soumen")
+
+
+# Exercise....................
+
+def get_phone (country, area, first, last):
+    return f"{country}-{area}-{first}-{last}"
+
+phone_num = get_phone(country=91, area=923, first=994,last=2624)
+print(phone_num)
