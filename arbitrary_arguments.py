@@ -18,3 +18,18 @@ def display_name(*args):
         print(arg, end =" ")
         
 display_name("Dr.", "Soumen", "Das")
+
+
+
+# Example of  kwargs ......................
+
+def print_address (**kwargs):
+    for key in kwargs.keys():
+        print(key)
+        
+print_address(street = "123 Fake st.",
+              city="Kolkata",
+              state = "West Bengal",
+              Zip = "721444"
+)
+    
